@@ -1105,6 +1105,7 @@ header {
 }
 .product-card-title {
   margin-bottom: 25px;
+  min-height: 44px;
 }
 .product-card-info {
   display: -webkit-box;
@@ -2799,6 +2800,9 @@ footer {
   }
   .product-card-img-wrapper {
     height: 195px;
+  }
+  .product-card-title {
+    min-height: 0;
   }
   /*=MODAL=*/
   .modal-title {
