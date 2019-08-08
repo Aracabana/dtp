@@ -2142,6 +2142,13 @@ footer {
   .header-authorization-link span {
     font-size: 18px;
   }
+  /*=MENU=*/
+  .products-menu-link {
+    padding: 12px 25px 12px 10px;
+  }
+  .products-submenu-link {
+    padding: 12px 25px 12px 10px;
+  }
   /*=CONTENT=*/
   .section + .section::before {
     max-width: 930px;
