@@ -841,9 +841,9 @@ header {
 }
 .products-menu-link {
   display: block;
-  padding: 17px 25px;
+  padding: 12px 25px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.2;
   color: #ffffff;
 }
@@ -897,9 +897,9 @@ header {
 }
 .products-submenu-link {
   display: block;
-  padding: 17px 25px;
+  padding: 12px 25px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   color: #4b688b;
   background:#fff;
