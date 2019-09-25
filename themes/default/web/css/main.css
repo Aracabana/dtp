@@ -1092,7 +1092,7 @@ header {
 }
 .product-card-content {
   position: relative;
-  padding: 15px 15px 230px;
+  padding: 15px 15px 230px;  /*здесь должно быть 230px, а на сайте 210!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 .product-card-content-in {
   position: absolute;
@@ -1151,7 +1151,10 @@ header {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   padding-left: 18px;
+  width: 100%;
   font-size: 14px;
   white-space: normal;
 }
@@ -1161,6 +1164,7 @@ header {
 }
 .product-card-info-logo {
   max-width: 77px;
+  max-height: 40px;
 }
 .product-card-price {
   margin-bottom: 20px;
